@@ -21,11 +21,14 @@ public class Proyecto6 {
         num1 = n.nextInt();
         System.out.println("ingrese el segundo numero numero");
         num2 = n.nextInt();
-        
+        if(num1<=num2)        
+        if(num1<num2)
+        if(num1!=num2){
         System.out.println("Resultado :");
         System.out.println(num1+" != "+num2);
         System.out.println(num1+" < "+num2);
-        System.out.println(num1+" <= "+num2);
+       System.out.println(num1+" <= "+num2);
     }
-    
+        
+    }
 }
